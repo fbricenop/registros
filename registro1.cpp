@@ -14,7 +14,7 @@ int main(){
 	for(int i=0;i<n;i++){
 		cout<<"NOMBRE DEL EMPLEADO NUMERO "<<i+1<<": "<<endl;
 		cin>>campo1.nombres;	
-		cout<<"SEXO DEL EMPLEADO NUMERO "<<i+1<<": "<<endl;
+		cout<<"SEXO DEL EMPLEADO NUMERO "<<i+1<<": "<<endl"MASCULINO/FEMENINO"<<endl;
 		cin>>campo2.sexo;
 		//cout<<campo1.nombres<<endl;
 		cout<<"SUELDO DEL EMPLEADO NUMERO "<<i+1<<": "<<endl;
