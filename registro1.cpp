@@ -13,16 +13,18 @@ int main(){
 	int empleados[n];
 	for(int i=0;i<n;i++){
 		cout<<"NOMBRE DEL EMPLEADO NUMERO "<<i+1<<": "<<endl;
-		cin>>campo1.nombres;	
-		cout<<"SEXO DEL EMPLEADO NUMERO "<<i+1<<": "<<endl"MASCULINO/FEMENINO"<<endl;
-		cin>>campo2.sexo;
+		cin>>empleados[i].nombres;	
+		cout<<"SEXO DEL EMPLEADO NUMERO "<<i+1<<": "<<endl<<"MASCULINO/FEMENINO"<<endl;
+		cin>>empleados[i].sexo;
 		//cout<<campo1.nombres<<endl;
 		cout<<"SUELDO DEL EMPLEADO NUMERO "<<i+1<<": "<<endl;
-		cin>>campo3.sueldo;
+		cin>>empleados[i].sueldo;
 	}
+	int menor=emplados[0].sueldo;
+	
 	for(int i=0;i<n;i++){
-		for(int i=0;i<n;i++){
-			//if()
+		if(menor<empleados[1].sueldo){
+			em	
 		}
 	}
 	
